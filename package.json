@@ -1,0 +1,25 @@
+{
+  "name": "mymap",
+  "version": "1.0.0",
+  "description": "A Thinking Mind Map",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "dependencies" : {
+      "express": "*",
+      "http": "*",
+      "path": "*",
+      "async": "*",
+      "mongoose": "*",
+      "body-parser": "*",
+      "mongodb": "*"
+  },
+
+  "scripts" : {
+      "refreshify" : "refreshify client/mymap.js -o client/bundle.js -v"
+  }
+}
